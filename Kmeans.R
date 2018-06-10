@@ -1,5 +1,5 @@
 #####------------------------- Kmeans function-------------------------
-
+source("preprocessing.R")
 
 get_kmeans_bests<-function(dataset, max_iterations, start){
   require(cluster)
